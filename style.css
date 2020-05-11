@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    background-image: url('https://images7.alphacoders.com/645/645085.jpg');
+    background-size: 100%;
+    cursor: default;
+  }
+ h1 {
+     color: rgb(255, 187, 0);
+     text-align: center;
+ }
+
+.characters {
+    color: rgb(255, 187, 0);
+    text-align: left;
+    margin-left: 5.5em;
+}
+
+ .box {
+    border: 2px solid  rgb(255, 187, 0);
+    border-radius: 3px;
+     width: 30em;
+     height: 10em;
+     color: rgb(233, 173, 173);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .container {
+     margin-top: 80px;
+ }
+ button {
+     font-family: "muli";
+    margin-left: 6em;
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 10em;
+    background: transparent;
+    color: rgb(255, 187, 0);
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid rgb(255, 187, 0);
+
+ }
+
+ #saveperson {
+     width: 4em;
+     padding: 0em;
+     margin-left: 0em;
+ }
+
+ button:hover {
+     background-color: yellow;
+     color: black;
+     text-decoration: underline;
+ }
+
+ .listcontainer {
+     margin-left: 45em;
+     margin-top: -17.3em;
+     
+ }
+
+ .savedcharacters {
+    color: rgb(255, 187, 0);
+    text-align: center;
+
+ }
+
+.mylist {
+    width: auto;
+    list-style-type: none;
+ }
+
+ li {
+     color: rgb(233, 173, 173);
+     font-size: 1.5em;
+     border-left: 1px solid  rgb(255, 187, 0);
+     border-right: 1px solid  rgb(255, 187, 0);
+     text-align: center;
+ }
+
+ li:first-child {
+    border-top: 1px solid  rgb(255, 187, 0);
+    border-radius: 3px;
+
+ }
+
+ li:last-child {  
+        border-bottom: 1px solid  rgb(255, 187, 0);
+        border-radius: 3px;
+ }
+
+ li:nth-child(odd) {
+     background-color: rgb(27, 26, 20);
+ }
+ li:hover {
+     font-size: 1.6em;
+     background-color: rgb(255, 187, 0);
+     color: black;
+     border-radius: 8px;
+ }
+
+
+ .allcontainer {
+     margin-top: 5em;
+
+ }
+ label {
+     color: rgb(255, 187, 0);
+ }
+
+ #all {
+     background-color: black;
+     color: rgb(236, 193, 193);
+     border: rgb(255, 187, 0) solid 2px;
+ }
+
+ option {
+     background-color: black;
+ }
+
+option:hover {
+    background-color: yellow;
+}
+
+span {
+    font-size: 0.5em;
+    padding: 1px;
+cursor: pointer;
+color:white;
+border: rgb(255, 255, 255) 1px solid;
+border-radius: 2px;
+margin-left: 5em;
+
+}
+
+span:hover {
+    color: white;
+    background-color: red;
+}
+
+
+@media (max-width: 966px) { .listcontainer {
+ margin-left: -2.5em;
+ margin-top: 4em;
+ margin-bottom: 4em;
+} 
+body {
+    height: 105vh;
+}
+
+}
+
+
+
